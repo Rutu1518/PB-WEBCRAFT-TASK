@@ -29,8 +29,7 @@
                     required
                     autoComplete="email"
                     className="block w-full h-12 border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400"
-                  />          
-                
+                  />                   
                  </div>  
               </div>              
 
@@ -42,14 +41,9 @@
                   />
                   Sign up with Facebook
                  </div>                 
-              </div>
-  
-              <div>
-                <div className="flex items-center justify-between">
-                
-              
                 </div>
-
+  
+              <div>  
                 <div className="mt-2">
                   <input
                     id="password"
@@ -65,15 +59,13 @@
               <div class="flex h-12 justify-center text-lg bg-blue-500 px-3 py-1.5 leading-6 text-white">               
                 <div className="flex  w-full">
                    <img  src={facebook}        
-                    className="mx-auto h-8  ml-3 w-auto bg-white rounded-2xl"
-                   />
+                    className="mx-auto h-8  ml-3 w-auto bg-white rounded-2xl"/>
                  <div className="ml-5"> Sign up with Facebook</div>
                 </div>
               </div>
 
-              <div>          
-
-                <div className="mt-2">
+              <div>   
+               <div className="mt-2">
                   <input
                     id="password"
                     name="password"
@@ -85,14 +77,7 @@
                 </div>
               </div>
   
-            </form>
-  
-            {/* <p className="mt-10 text-center text-sm text-gray-500">
-              Not a member?{' '}
-              <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                Start a 14 day free trial
-              </a>
-            </p> */}
+            </form>         
           </div>
         </div>
       </>
