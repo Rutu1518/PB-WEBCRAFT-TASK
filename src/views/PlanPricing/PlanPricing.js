@@ -4,7 +4,7 @@ import Plancard from '../../components/PlanPricing/Plancard'
 function PlanPricing() {
   return (<>
     <div className='block m-12  '> <h2 className=" text-[#1a1a42] text-6xl font-semibold text-center ">Choose your pricing </h2>
-    <h2 className=" text-[#1a1a42] text-6xl font-semibold text-center ">Plan</h2>
+    <h2 className=" text-[#1a1a42] text-6xl font-semibold text-center ">plan</h2>
     </div>
     <div className=' flex flex-wrap flex-row justify-center md:space-x-7 mb-[100px] '>
        <Plancard planLevel={`BASIC PLAN`} planPrice={`5,000`} planContent={`26 DESIGNS + 4 REELS + MANAGEMENT + 1 PAID AD RUN`}/>
